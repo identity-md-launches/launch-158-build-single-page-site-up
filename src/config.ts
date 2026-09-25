@@ -1,0 +1,14 @@
+export const CHAIN_CONFIG = {
+  chainId: 4663,
+  rpcUrl: 'https://rpc.mainnet.chain.robinhood.com',
+  stateView: '0xF3334192D15450CdD385c8B70e03f9A6bD9E673b',
+  poolManager: '0x8366a39CC670B4001A1121B8F6A443A643e40951',
+
+  // DEPLOYMENT PLACEHOLDERS — replace these values when $UP is deployed.
+  token: '0x0000000000000000000000000000000000000000',
+  creator: '0x0000000000000000000000000000000000000000',
+  burnAddress: '0x000000000000000000000000000000000000dEaD',
+  poolId: '0x0000000000000000000000000000000000000000000000000000000000000000',
+  tokenDecimals: 18,
+  tokenIsCurrency0: true,
+} as const
